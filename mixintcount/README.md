@@ -97,17 +97,17 @@ If you encounter any problem with Armadillo library, you can try to compile and 
 
 * mic_ran2.xlsx
 
-	Raw data of Figure 5, three sheets are results of n = 5, 10, 15 respectively.
+	Raw data of Figure 2, three sheets are results of n = 5, 10, 15 respectively.
 
-	Figure 5 contains all rows of results in these sheets.
+	Figure 2 contains all rows of results in these sheets.
 
 	
 
 * v2l_mic.xlsx
 
-	Raw data of Figure 6, sheet 'v2l' and 'mic' are results of Vol2Lat and MixIntCount respectively.
+	Raw data of Figure 3, sheet 'v2l' and 'mic' are results of Vol2Lat and MixIntCount respectively.
 
-	Figure 6 contains all rows of results in these sheets.
+	Figure 3 contains all rows of results in these sheets.
 
 
 

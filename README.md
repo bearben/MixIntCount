@@ -19,11 +19,15 @@ Folder "VOL2LAT_MIC" is the combination of MixIntCount with VOL2LAT in order to 
 
 * Then execute: 
 
+	cd mixintcount
+
 	sh build.sh
 
 
 
 Some quick tests:
+
+	cd mixintcount
 
 	./mixIntCount benchmarks/cube_10.in
 
@@ -46,6 +50,8 @@ For details of options, please refer to the help menu of mixIntCount by:
 
 
 Execute:
+
+	cd mixintcount
 
 	sudo apt-get install g++
 
@@ -70,7 +76,7 @@ If you encounter any problem with Armadillo library, you can try to compile and 
 
 
 
-* random:
+* mixintcount/benchmarks/random:
 
 	Basic benchmarks of random polytopes P(m, n, i, l) for Table 1, where m = n ranges from 4 to 15, i in {1, 2, 3}, and l ranges from 10 to 10000.
 
@@ -78,7 +84,7 @@ If you encounter any problem with Armadillo library, you can try to compile and 
 
 
 
-* random_n5, random_n10, random_n15:
+* mixintcount/benchmarks/random_n5, random_n10, random_n15:
 
 	Additional benchmarks of random polytopes P(m, n, i, l) for Figure 5, where m = n = 5, 10, 15, i is fixed to 1, and l ranges from 10 to 10000.
 
@@ -86,12 +92,16 @@ If you encounter any problem with Armadillo library, you can try to compile and 
 
 
 
-* random_v2l:
+* mixintcount/benchmarks/random_v2l:
 
 	Additional benchmarks of random polytopes P(m, n, i, l) for Figure 6, where m = n = i ranges from 3 to 8, and l ranges from 10 to 10000.
 
 	Benchmarks are in name "n_i_l.in", "n_i_l.in2" and "n_i_l.smt2", they are inputs for tool MixIntCount, barvinok and Vol2Lat respectively.
 
+
+* VOL2LAT_MIC/benchmarks.zip
+
+	Application benchmarks generated from program analysis.
 
 
 
@@ -100,26 +110,31 @@ If you encounter any problem with Armadillo library, you can try to compile and 
 
 
 
-* mic_ran.xlsx
+* mixintcount/mic_ran.xlsx
 
 	Full results of Table 1 is in 'comparison' sheet in mic_ran.xlsx.
 
 	
 
-* mic_ran2.xlsx
+* mixintcount/mic_ran2.xlsx
 
-	Raw data of Figure 5, three sheets are results of n = 5, 10, 15 respectively.
+	Raw data of Figure 2, three sheets are results of n = 5, 10, 15 respectively.
 
-	Figure 5 contains all rows of results in these sheets.
+	Figure 2 contains all rows of results in these sheets.
 
 	
 
-* v2l_mic.xlsx
+* mixintcount/v2l_mic.xlsx
 
-	Raw data of Figure 6, sheet 'v2l' and 'mic' are results of Vol2Lat and MixIntCount respectively.
+	Raw data of Figure 3, sheet 'v2l' and 'mic' are results of Vol2Lat and MixIntCount respectively.
 
-	Figure 6 contains all rows of results in these sheets.
+	Figure 3 contains all rows of results in these sheets.
 
+
+* VOL2LAT_MIC/results/
+
+	
+	Raw data of Table 2, each file correspond to the results on a family of benchmarks.
 
 
 

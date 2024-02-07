@@ -71,14 +71,6 @@ Build and install [LattE](https://www.math.ucdavis.edu/~latte/), then move the e
 
 
 
-## Build status
-
-This release of VolCE has been successfully built on the following operating systems:
-
-* Ubuntu 18.04 on 64-bit with g++ 7.3.0
-
-* Ubuntu 14.04 on 64-bit with g++ 4.8.4
-
 
 
 
