@@ -42,15 +42,15 @@ This release of VolCE has been successfully built on the following operating sys
 
 ## Benchmarks
 
-* random
+* random:
 	Basic benchmarks of random polytopes P(m, n, i, l) for Table 1, where m = n ranges from 4 to 15, i in {1, 2, 3}, and l ranges from 10 to 10000.
 	Benchmarks are in name "n_i_l.in".
 
-* random_n5, random_n10, random_n15
+* random_n5, random_n10, random_n15:
 	Additional benchmarks of random polytopes P(m, n, i, l) for Figure 5, where m = n = 5, 10, 15, i is fixed to 1, and l ranges from 10 to 10000.
 	Benchmarks are in name "n_i_l.in".
 
-* random_v2l
+* random_v2l:
 	Additional benchmarks of random polytopes P(m, n, i, l) for Figure 6, where m = n = i ranges from 3 to 8, and l ranges from 10 to 10000.
 	Benchmarks are in name "n_i_l.in", "n_i_l.in2" and "n_i_l.smt2", they are inputs for tool MixIntCount, barvinok and Vol2Lat respectively.
 

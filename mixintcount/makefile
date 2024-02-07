@@ -1,6 +1,6 @@
 #-----Macros---------------------------------
 
-EXEC = mixIntCount
+EXEC = MixIntCount
 
 INCLUDE_FLAGS = -Iusr/include -Isrc
 LIB_FLAGS = -lglpk -larmadillo
