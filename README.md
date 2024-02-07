@@ -17,7 +17,7 @@ Folder "VOL2LAT_MIC" is the combination of MixIntCount with VOL2LAT in order to 
 
 * Make sure that g++, boost, glpk, Armadillo are installed on your machine.
 
-* Then execute: 
+Then execute: 
 
 	cd mixintcount
 

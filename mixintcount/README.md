@@ -6,7 +6,7 @@
 
 * Make sure that g++, boost, glpk, Armadillo are installed on your machine.
 
-* Then execute: 
+Then execute: 
 
 	sh build.sh
 
