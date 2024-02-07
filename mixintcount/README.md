@@ -1,4 +1,3 @@
-
 # MixIntCount
 
 
@@ -49,7 +48,7 @@ Execute:
 
 	
 
-If you encounter any problem with Armadillo library, you can try installing Armadillo from compiling (http://arma.sourceforge.net/).
+If you encounter any problem with Armadillo library, you can try to compile and install it (http://arma.sourceforge.net/).
 
 
 
