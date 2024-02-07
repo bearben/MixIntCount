@@ -65,17 +65,6 @@ If you encounter any problem with Armadillo library, you can try to compile and 
 
 
 
-## Build status
-
-This release of VolCE has been successfully built on the following operating systems:
-
-* Ubuntu 18.04 on 64-bit
-
-* Ubuntu 20.04 on 64-bit
-
-
-
-
 
 ## Benchmarks
 
