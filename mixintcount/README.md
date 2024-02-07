@@ -14,17 +14,17 @@ Then execute:
 
 Some quick tests:
 
-	./mixIntCount benchmarks/cube_10.in
+	./MixIntCount benchmarks/cube_10.in
 
-	./mixIntCount -pv benchmarks/random/4_1_1000.in
+	./MixIntCount -pv benchmarks/random/4_1_1000.in
 
-	./mixIntCount -e benchmarks/random/4_1_1000.in
+	./MixIntCount -e benchmarks/random/4_1_1000.in
 
 
 
 For details of options, please refer to the help menu of mixIntCount by:
 
-	./mixIntCount -h
+	./MixIntCount -h
 
 
 
